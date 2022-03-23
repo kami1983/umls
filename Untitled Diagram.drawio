@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T02:11:52.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="acZ8jg4zVofcKgQtdCuu" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T02:20:03.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="TbswDDsy7vM61G9jCE-x" version="17.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -488,9 +488,36 @@
         <mxCell id="5LJEiE5y61jCH53QIzRt-375" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LJEiE5y61jCH53QIzRt-181" target="5LJEiE5y61jCH53QIzRt-150">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1870" y="830" />
+              <mxPoint x="1830" y="950" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-379" value="SharedVoterSetState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="780" width="360" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-380" value="+ inner: VoterSetState" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-381" value="+ voting: HashMap&lt;RoundNumber, AuthorityId&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-383" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="78" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-385" value="+ new()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="86" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-389" value="+ read(): RwLockReadGuard&lt;VoterSetState&lt;Block&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="112" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-390" value="+ voting_on(round: RoundNumber):Option&lt;AuthorityId&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="138" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-391" value="+ started_voting_on(round: RoundNumber, local_id: AuthorityId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="164" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5LJEiE5y61jCH53QIzRt-392" value="+ finished_voting_on(round: RoundNumber) // 相当于删除" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-379">
+          <mxGeometry y="190" width="360" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
