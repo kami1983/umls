@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T01:38:35.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="fxm7NL-ccW1F6CqeeY4y" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T01:40:35.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="UkqO_h81ynY3ow36vTr7" version="17.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1234" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,13 +383,13 @@
           <mxGeometry y="268" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5LJEiE5y61jCH53QIzRt-199" value="finality-grandpa/lib.rs&#xa;&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;sketch=0;gradientColor=#ffffff;gradientDirection=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1870" y="609" width="660" height="60" as="geometry" />
+          <mxGeometry x="1870" y="609" width="820" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5LJEiE5y61jCH53QIzRt-201" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;sketch=0;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-199">
-          <mxGeometry y="26" width="660" height="8" as="geometry" />
+          <mxGeometry y="26" width="820" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="5LJEiE5y61jCH53QIzRt-202" value="validate_commit&lt;H, N, S, I, C: Chain&lt;H, N&gt;&gt;(commit: &amp;Commit&lt;H, N, S, I&gt;,voters: &amp;VoterSet&lt;I&gt;,chain: &amp;C)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;sketch=0;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-199">
-          <mxGeometry y="34" width="660" height="26" as="geometry" />
+        <mxCell id="5LJEiE5y61jCH53QIzRt-202" value="validate_commit&lt;H, N, S, I, C: Chain&lt;H, N&gt;&gt;(commit: &amp;Commit&lt;H, N, S, I&gt;,voters: &amp;VoterSet&lt;I&gt;,chain: &amp;C):Result&lt;CommitValidationResult&lt;H, N&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;sketch=0;" vertex="1" parent="5LJEiE5y61jCH53QIzRt-199">
+          <mxGeometry y="34" width="820" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5LJEiE5y61jCH53QIzRt-203" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5LJEiE5y61jCH53QIzRt-202" target="5LJEiE5y61jCH53QIzRt-131">
           <mxGeometry relative="1" as="geometry" />
