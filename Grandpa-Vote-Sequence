@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T05:38:16.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="borenGvgo55jn0zHwf7M" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T23:57:30.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="tu49mpsQddDszbmWoOBl" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1686" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-130" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="410" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-141" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="100" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-25" value=":PastRounds" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="220" width="100" height="300" as="geometry" />
@@ -134,19 +137,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-131" value="VotingRound" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="100" width="140" height="104" as="geometry" />
+          <mxGeometry x="1340" y="120" width="350" height="234" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-133" value="- bridged_round_state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-133" value="每个GP轮次创建的结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-135" value="- state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-146" value="用来存储state的状态变化，根据该状态来决定投票进行的步骤" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-134" value="- last_round_state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-147" value="？控制imcome和outcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-148" value="？bridged_round_state " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-149" value="last_round_state  用来记录最后一个轮次的state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="130" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-150" value="？primary_block" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="156" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-151" value="？finalized_sender" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="182" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-145" value="？best_finalized" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
+          <mxGeometry y="208" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-136" value=":Round" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="300" width="100" height="300" as="geometry" />
+          <mxGeometry x="1050" y="426" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;" edge="1" parent="1" source="TwSYtS_rvLQDQ6i_-otJ-141" target="TwSYtS_rvLQDQ6i_-otJ-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-143" value="VotingRound" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="426" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-144" value="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
