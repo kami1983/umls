@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T09:38:04.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="V8-8WSC6vpxXf3Fc7MGF" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T09:50:07.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="T6BaBofoo70DqHNMUMGE" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="uwyafUA-K9Ao7XEBef_R-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="uwyafUA-K9Ao7XEBef_R-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uwyafUA-K9Ao7XEBef_R-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-8" target="uwyafUA-K9Ao7XEBef_R-11">
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-8" target="uwyafUA-K9Ao7XEBef_R-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-8" target="uwyafUA-K9Ao7XEBef_R-21">
@@ -74,20 +74,28 @@
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-11" target="uwyafUA-K9Ao7XEBef_R-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="770" />
+              <mxPoint x="350" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;prevote_timer&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;判断是否到达预投点&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="790" width="80" height="80" as="geometry" />
+          <mxGeometry x="680" y="790" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-13" target="uwyafUA-K9Ao7XEBef_R-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-13" value="构造 BestChain" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-16" target="uwyafUA-K9Ao7XEBef_R-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-16" value="修改 State 为 Prevoting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1080" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-21" target="uwyafUA-K9Ao7XEBef_R-23">
           <mxGeometry relative="1" as="geometry" />
@@ -159,15 +167,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-63" value="替换 inner.best_round 为新的 VotingRound" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="775" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uwyafUA-K9Ao7XEBef_R-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-65" target="uwyafUA-K9Ao7XEBef_R-52">
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-65" target="uwyafUA-K9Ao7XEBef_R-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1330" y="1030" as="targetPoint" />
+            <mxPoint x="680" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="1260" />
+              <mxPoint x="1430" y="740" />
+              <mxPoint x="350" y="740" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-65" value="将旧的 VotingRound 设置到 inner.past_round 里" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="1065" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-68" target="uwyafUA-K9Ao7XEBef_R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uwyafUA-K9Ao7XEBef_R-69">
+          <mxGeometry x="-0.22" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-68" value="判断 State 是否为 Start" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="790" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
