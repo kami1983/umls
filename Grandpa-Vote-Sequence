@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T05:18:58.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="p3GVakkLOLkcCFhh5stg" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T05:38:16.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="borenGvgo55jn0zHwf7M" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-131" value="VotingRound" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="140" width="140" height="104" as="geometry" />
+          <mxGeometry x="900" y="100" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-133" value="- bridged_round_state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -144,6 +144,9 @@
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-134" value="- last_round_state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-131">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-136" value=":Round" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="300" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
