@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T08:37:59.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="GVBgpYFbqe_WoR1y9LeJ" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T09:00:48.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="UFqdKP3ryUSLysZxPijR" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2066" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,9 +86,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;prevote_timer&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;判断是否到达预投点&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="670" width="80" height="80" as="geometry" />
+          <mxGeometry x="1090" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-13" target="uwyafUA-K9Ao7XEBef_R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-13" target="uwyafUA-K9Ao7XEBef_R-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-13" value="构造 BestChain" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -405,7 +408,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-152" value="改State为Proposed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="930" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uwyafUA-K9Ao7XEBef_R-157">
           <mxGeometry relative="1" as="geometry">
@@ -460,11 +463,29 @@
         <mxCell id="uwyafUA-K9Ao7XEBef_R-175" value="获取当前主投人的ID（Env里面定义的Authority）根据轮次计算出来的主投人" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-177" target="uwyafUA-K9Ao7XEBef_R-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-177" value="设置主投区块&amp;nbsp;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;primary_block&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-545" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-179" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-720" y="880" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-183" target="uwyafUA-K9Ao7XEBef_R-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-183" value="判断是否有&lt;br&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;voting_round&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;primary_block&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-187" target="uwyafUA-K9Ao7XEBef_R-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-187" value="判断主投点是不是当前ghost的祖先" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-189" value="选择包含该祖先节点的链" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
