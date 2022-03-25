@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T05:57:50.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="0W7oyAHLVv1mWn64vxbC" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:19:53.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="CE8FALBIL6uysladIYN_" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1686" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3372" dy="1474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,7 +209,7 @@
           <mxGeometry x="1320" y="1146" width="316.24" height="552" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-163" value="lib.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="538" width="520" height="104" as="geometry" />
+          <mxGeometry x="1740" y="560" width="520" height="520" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-164" value="validate_commit() 针对precommit的消息，填充Round结构数据，.graph .historical_votes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
@@ -217,11 +217,59 @@
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-167" value="?没有找到签名验证的地方" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
           <mxGeometry y="52" width="520" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-168" value="last_round_state  用来记录最后一个轮次的state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-232" value="last_round_state  用来记录最后一个轮次的state" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
           <mxGeometry y="78" width="520" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-233" value="CatchUp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="104" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-234" value="Chain 一个对链的接口，需要 ancestry() is_equal_or_descendent_of() 方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="130" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-235" value="Equivocation 模棱两可的结构定义" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="156" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-239" value="Commit 一个提交消息，包括目标高度签名信息等。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="182" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-238" value="CommitValidationResult 从`validate_commit` 函数返回的结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="208" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-237" value="CompactCommit 和 Commit 类似，但是好像是可以表示一个多签结构。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="234" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-236" value="HistoricalVotes 表示某个轮次当中的历史投票" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="260" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-243" value="Message 协议的消息类型Prevote、Precommit、PrimaryPropose" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="286" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-242" value="MultiAuthData 多签消息数据类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="312" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-241" value="Precommit 结构(H,N)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="338" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-240" value="Prevote 结构 (H,N)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="364" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-244" value="PrimaryPropose 结构（H,N)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="390" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-245" value="process_commit_validation_result() 如果 ghost 有值那么返回 CommitValidationResult::Good" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="416" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-246" value="SignedMessage 包含签名的消息数据，message 是一个 Message类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="442" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-247" value="SignedPrecommit 包含签名的Precommit 数据 precommit 是一个 Precommit类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="468" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-168" value="SignedPrevote 包含签名的Prevote 数据 prevote  是一个  prevote 类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-163">
+          <mxGeometry y="494" width="520" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-172" value="bridge_state.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="680" width="520" height="130" as="geometry" />
+          <mxGeometry x="1740" y="1120" width="520" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-173" value="主要用来支持 State 的网络存储" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-172">
           <mxGeometry y="26" width="520" height="26" as="geometry" />
@@ -236,7 +284,7 @@
           <mxGeometry y="104" width="520" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-177" value="round.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="846" width="840" height="156" as="geometry" />
+          <mxGeometry x="1740" y="1286" width="840" height="156" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-178" value="用来表示与投票相关的内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-177">
           <mxGeometry y="26" width="840" height="26" as="geometry" />
@@ -254,7 +302,7 @@
           <mxGeometry y="130" width="840" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-185" value="vote_graph.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1020" width="710" height="156" as="geometry" />
+          <mxGeometry x="1740" y="1460" width="710" height="156" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-186" value="用来提供一些计算的方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
           <mxGeometry y="26" width="710" height="26" as="geometry" />
@@ -272,7 +320,7 @@
           <mxGeometry y="130" width="710" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-192" value="vote_set.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1200" width="710" height="156" as="geometry" />
+          <mxGeometry x="1740" y="1640" width="710" height="156" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-193" value="VoteSet 一个关联投票信息和权重的集合，投票信息包括门槛，投票人的postion和weight。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-192">
           <mxGeometry y="26" width="710" height="26" as="geometry" />
@@ -290,7 +338,7 @@
           <mxGeometry y="130" width="710" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-198" value="round/context.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1370" width="360" height="104" as="geometry" />
+          <mxGeometry x="1740" y="1810" width="360" height="104" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-199" value="Context 结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-198">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
@@ -302,13 +350,13 @@
           <mxGeometry y="78" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-204" value="voter/past_rounds.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1490" width="210" height="52" as="geometry" />
+          <mxGeometry x="1740" y="1930" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-205" value="用来记录已经完成的轮次" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-204">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-208" value="voter/voting_round.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1570" width="760" height="130" as="geometry" />
+          <mxGeometry x="1740" y="2010" width="760" height="130" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-209" value="包内可见的逻辑，VotingRound 、State、Voting 提供三个单元的实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-208">
           <mxGeometry y="26" width="760" height="26" as="geometry" />
@@ -323,7 +371,7 @@
           <mxGeometry y="104" width="760" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-213" value="voter/mod.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="1720" width="800" height="416" as="geometry" />
+          <mxGeometry x="1740" y="2160" width="800" height="416" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-214" value="投票的主实现模块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="26" width="800" height="26" as="geometry" />
