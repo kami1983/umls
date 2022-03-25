@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T08:29:46.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="JA5eAv44fVxK9dlFisbO" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:37:59.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="GVBgpYFbqe_WoR1y9LeJ" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2066" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -448,17 +448,23 @@
         <mxCell id="uwyafUA-K9Ao7XEBef_R-170" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Message::&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;PrimaryPropose&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="910" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-172" target="uwyafUA-K9Ao7XEBef_R-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-172" value="判断模棱两可 &amp;amp; 完善&lt;span style=&quot;font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;graph &amp;amp; 添加消息里的投票数据&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-545" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-175" target="uwyafUA-K9Ao7XEBef_R-177">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uwyafUA-K9Ao7XEBef_R-175" value="检查Voter的Id是否匹配" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-175" value="获取当前主投人的ID（Env里面定义的Authority）根据轮次计算出来的主投人" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-177" value="设置主投区块&amp;nbsp;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;primary_block&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-545" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-179" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="880" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
