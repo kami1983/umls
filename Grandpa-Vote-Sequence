@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T00:51:12.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="YEsncEMbZcTZ8Mw0HYrh" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T01:37:01.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="uLReWABkTTOPV6Gc5WWO" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1686" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -252,6 +252,24 @@
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-183" value="Round 结构，整合记录当前投票轮次的数据，graph、prevote、precommit，以及 historical_votes（这个是对外开放的），还有一些 State保留出来的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-177">
           <mxGeometry y="130" width="840" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-185" value="vote_graph.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1020" width="520" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-186" value="用来提供一些计算的方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-190" value="base()获取图的基础block" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-187" value="find_ancestor(H,N,F)  寻找图形中大于给定F判断的最高的祖先节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
+          <mxGeometry y="78" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-188" value="find_ghost" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
+          <mxGeometry y="104" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-189" value="cumulative_vote(B) 返回给定区块的总票数。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-185">
+          <mxGeometry y="130" width="520" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
