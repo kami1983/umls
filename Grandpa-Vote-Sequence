@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T05:08:17.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="BaPL4i6wyabinTkEcpEM" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T05:20:39.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="bNdTNmc7btNqPXOktNXd" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1686" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -334,31 +334,31 @@
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-216" value="BadCommit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="78" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-220" value="Callback" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-223" value="GoodCatchUp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="104" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-219" value="CatchUpProcessingOutcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-224" value="GoodCommit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="130" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-222" value="CommitProcessingOutcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-220" value="Callback" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="156" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-221" value="CommunicationIn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-219" value="CatchUpProcessingOutcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="182" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-218" value="CommunicationOut" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-222" value="CommitProcessingOutcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="208" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-217" value="Environment 需要外部实现的环境接口" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-221" value="CommunicationIn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="234" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-223" value="GoodCatchUp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-218" value="CommunicationOut" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="260" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-224" value="GoodCommit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-217" value="Environment 需要外部实现的环境接口，比如 best_chain_containing()构造BestChain，round_data()获取RoundData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="286" width="760" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-225" value="RoundData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-225" value="RoundData Round所需要的数据，包括两个计时器timer，income和outcome" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
           <mxGeometry y="312" width="760" height="26" as="geometry" />
         </mxCell>
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-226" value="Voter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-213">
