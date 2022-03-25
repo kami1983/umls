@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T07:13:29.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="JgnkoEV2y72NnbqjJAAC" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:29:46.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="JA5eAv44fVxK9dlFisbO" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1216" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Start" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="275" y="270" width="100" height="300" as="geometry" />
+          <mxGeometry x="305" y="-190" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
@@ -16,22 +16,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Prevoting" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="270" width="100" height="300" as="geometry" />
+          <mxGeometry x="570" y="-190" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;VotingRound.state 的转换过程&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="110" width="70" height="30" as="geometry" />
+          <mxGeometry x="230" y="-350" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-3" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Start&lt;/span&gt;(&lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;, &lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;),&lt;br&gt;&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Proposed&lt;/span&gt;(&lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;, &lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;),&lt;br&gt;&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Prevoting&lt;/span&gt;(&lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;, &lt;span style=&quot;color: #20999d&quot;&gt;W&lt;/span&gt;),&lt;br&gt;&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Prevoted&lt;/span&gt;(&lt;span style=&quot;color: #20999d&quot;&gt;T&lt;/span&gt;),&lt;br&gt;&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Precommitted&lt;/span&gt;,&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;是什么决定了主投人? 通过 RoundNumber &lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;来决定当前轮次的主投人，所以主投人是可以预测的。&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;主投人的作用：&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="150" width="150" height="110" as="geometry" />
+          <mxGeometry x="1050" y="-310" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-4" value=":Prevoted" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="270" width="100" height="300" as="geometry" />
+          <mxGeometry x="810" y="-190" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="uwyafUA-K9Ao7XEBef_R-4">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
@@ -63,6 +63,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-8" target="uwyafUA-K9Ao7XEBef_R-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Alice poll()&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="800" width="120" height="60" as="geometry" />
         </mxCell>
@@ -77,25 +80,25 @@
         <mxCell id="uwyafUA-K9Ao7XEBef_R-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-11" target="uwyafUA-K9Ao7XEBef_R-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="770" />
-              <mxPoint x="350" y="770" />
+              <mxPoint x="1120" y="640" />
+              <mxPoint x="350" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;prevote_timer&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;判断是否到达预投点&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="790" width="80" height="80" as="geometry" />
+          <mxGeometry x="1080" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-13" target="uwyafUA-K9Ao7XEBef_R-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-13" value="构造 BestChain" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-16" target="uwyafUA-K9Ao7XEBef_R-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-16" value="修改 State 为 Prevoting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1445" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-21" target="uwyafUA-K9Ao7XEBef_R-23">
           <mxGeometry relative="1" as="geometry" />
@@ -140,7 +143,7 @@
           <mxGeometry x="1065" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-52" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="950" width="90" height="60" as="geometry" />
+          <mxGeometry x="1460" y="950" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-56" target="uwyafUA-K9Ao7XEBef_R-61">
           <mxGeometry relative="1" as="geometry" />
@@ -173,9 +176,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1430" y="1260" />
-              <mxPoint x="1430" y="740" />
-              <mxPoint x="350" y="740" />
+              <mxPoint x="1670" y="1260" />
+              <mxPoint x="1670" y="580" />
+              <mxPoint x="350" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -190,8 +193,11 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-68" target="uwyafUA-K9Ao7XEBef_R-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-68" value="判断 State 是否为 Start" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="790" width="80" height="80" as="geometry" />
+          <mxGeometry x="530" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-77" target="uwyafUA-K9Ao7XEBef_R-87">
           <mxGeometry relative="1" as="geometry" />
@@ -386,6 +392,73 @@
         </mxCell>
         <mxCell id="uwyafUA-K9Ao7XEBef_R-139" value="I" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1050" y="2630" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-150" target="uwyafUA-K9Ao7XEBef_R-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-150" value="判断是否是主投" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-152" target="uwyafUA-K9Ao7XEBef_R-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-152" value="改State为Proposed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uwyafUA-K9Ao7XEBef_R-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-160" target="uwyafUA-K9Ao7XEBef_R-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-160" value="发送&amp;nbsp;PrimaryPropose 消息到网络" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-163" target="uwyafUA-K9Ao7XEBef_R-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-163" target="uwyafUA-K9Ao7XEBef_R-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-163" target="uwyafUA-K9Ao7XEBef_R-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-163" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;process_incoming()&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;网络消息处理&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="800" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-166" target="uwyafUA-K9Ao7XEBef_R-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-166" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Message::&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Prevote&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-168" target="uwyafUA-K9Ao7XEBef_R-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-168" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Message::&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;Precommit&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-170" target="uwyafUA-K9Ao7XEBef_R-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-170" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Message::&lt;span style=&quot;color: #660e7a ; font-style: italic&quot;&gt;PrimaryPropose&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-172" value="判断模棱两可 &amp;amp; 完善&lt;span style=&quot;font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;graph &amp;amp; 添加消息里的投票数据&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="uwyafUA-K9Ao7XEBef_R-175" target="uwyafUA-K9Ao7XEBef_R-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-175" value="检查Voter的Id是否匹配" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uwyafUA-K9Ao7XEBef_R-177" value="设置主投区块&amp;nbsp;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;primary_block&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
