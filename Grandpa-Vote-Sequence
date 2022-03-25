@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T23:57:30.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="tu49mpsQddDszbmWoOBl" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T00:06:17.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="68qY7d_04x3xiO35Owvm" version="17.1.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1686" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,11 +169,38 @@
         <mxCell id="TwSYtS_rvLQDQ6i_-otJ-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;" edge="1" parent="1" source="TwSYtS_rvLQDQ6i_-otJ-141" target="TwSYtS_rvLQDQ6i_-otJ-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-143" value="VotingRound" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="426" width="140" height="52" as="geometry" />
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-143" value="Round" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="426" width="340" height="286" as="geometry" />
         </mxCell>
-        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-144" value="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-144" value="用来表示某一轮的投票数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-152" value="包括一个graph已经被投票区块的DAG" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="52" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-153" value="prevote 预投阶段的Tracker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="78" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-154" value="precommit 预提交阶段的Tracker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="104" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-155" value="？historical_votes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="130" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-156" value="prevote_ghost - 内存里的Ghost块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="156" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-157" value="precommit_ghost - 内存里的Ghost块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="182" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-158" value="finalized - 通过区块导入后最终计算的完成化的块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="208" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-159" value="estimate - 当前估算的最佳块" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="234" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TwSYtS_rvLQDQ6i_-otJ-160" value="completable - 标记当前块是否完成" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TwSYtS_rvLQDQ6i_-otJ-143">
+          <mxGeometry y="260" width="340" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
