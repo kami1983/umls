@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T09:58:03.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="XCOynVY6BTaoiX2qsKhW" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T10:10:48.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="zul_cx5NU1nph9JP2MlK" version="17.2.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2084" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -526,11 +526,20 @@
         <mxCell id="5G5tQrDcBoQDOHy07M97-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Import-precommit&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="3250" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5G5tQrDcBoQDOHy07M97-10" value="构建 prevote_weight&lt;br&gt;(根据验证人对应的权重累计)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="3030" width="120" height="60" as="geometry" />
+        <mxCell id="5G5tQrDcBoQDOHy07M97-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5G5tQrDcBoQDOHy07M97-10" target="5G5tQrDcBoQDOHy07M97-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5G5tQrDcBoQDOHy07M97-12" value="构建 precommit_weight&lt;br&gt;（根据验证人对应的权重累计）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="3250" width="120" height="60" as="geometry" />
+        <mxCell id="5G5tQrDcBoQDOHy07M97-10" value="构建 prevote.current_weight&lt;br&gt;(根据验证人对应的权重累计)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="3030" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5G5tQrDcBoQDOHy07M97-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5G5tQrDcBoQDOHy07M97-12" target="5G5tQrDcBoQDOHy07M97-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5G5tQrDcBoQDOHy07M97-12" value="构建 precommit.current_weight&lt;br&gt;（根据验证人对应的权重累计）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="3250" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5G5tQrDcBoQDOHy07M97-15" value="判断是否达到门槛" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="3130" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
