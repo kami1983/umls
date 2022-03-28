@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T10:13:06.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="YZGhs4-XXmbTJIl_XJZs" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-28T10:13:32.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="RmBqXMlQfCulvinxp1lj" version="17.2.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2084" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -511,6 +511,9 @@
         <mxCell id="5G5tQrDcBoQDOHy07M97-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5G5tQrDcBoQDOHy07M97-1" target="5G5tQrDcBoQDOHy07M97-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5G5tQrDcBoQDOHy07M97-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5G5tQrDcBoQDOHy07M97-1" target="5G5tQrDcBoQDOHy07M97-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5G5tQrDcBoQDOHy07M97-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Import&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="3030" width="120" height="60" as="geometry" />
         </mxCell>
@@ -562,6 +565,9 @@
         </mxCell>
         <mxCell id="5G5tQrDcBoQDOHy07M97-20" value="构建 Vote 插入 graph 最终用于计算finalize&lt;br&gt;这块累计并没有计算权重是用bit" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="685" y="3440" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5G5tQrDcBoQDOHy07M97-24" value="更新敲定的区块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="3560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
