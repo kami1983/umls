@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T07:28:07.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="8yCmwIDdPSQsV_26G-7c" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T02:33:28.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="YCqgFCJMJNoBetxNtkCA" version="17.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -23,7 +23,93 @@
           <mxGeometry x="414" y="610" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UL14s3_5rvyR8ZA_Vvqb-5" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;Preclaims&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;与声明的以太坊ID&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;AccountId=&amp;gt;以太ID&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="630" width="60" height="130" as="geometry" />
+          <mxGeometry x="440" y="740" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-6" value="&lt;p class=&quot;p1&quot;&gt;你能手画一张图，然后拍个照即可，把eth，polka，near，arweave，octopus，debio，atocha之间关系解释一下&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="1040" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="1570" width="330" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-9" value="Near" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-10" value="Arweave 存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-12" target="UL14s3_5rvyR8ZA_Vvqb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-12" value="Debio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-13" target="UL14s3_5rvyR8ZA_Vvqb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-13" target="UL14s3_5rvyR8ZA_Vvqb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-13" target="UL14s3_5rvyR8ZA_Vvqb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-13" value="Atocha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="1635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-14" value="&lt;font face=&quot;helvetica&quot;&gt;Polkadot 生态链&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="1580" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-15" target="UL14s3_5rvyR8ZA_Vvqb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-15" target="UL14s3_5rvyR8ZA_Vvqb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-15" target="UL14s3_5rvyR8ZA_Vvqb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-15" value="Atocha - App客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="1635" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-18" target="UL14s3_5rvyR8ZA_Vvqb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-20" value="访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UL14s3_5rvyR8ZA_Vvqb-19">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1370" y="1665" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="1552.5" width="320" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-24" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Near 生态（合约）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="1572.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-25" target="UL14s3_5rvyR8ZA_Vvqb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-25" target="UL14s3_5rvyR8ZA_Vvqb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-25" value="Octopus 章鱼网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="1687.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-29" target="UL14s3_5rvyR8ZA_Vvqb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-29" value="Aurora" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1682.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UL14s3_5rvyR8ZA_Vvqb-30" target="UL14s3_5rvyR8ZA_Vvqb-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="1547.5" width="160" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UL14s3_5rvyR8ZA_Vvqb-31" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;ETH 生态（合约）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="1572.5" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
