@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T09:07:47.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Nx9eBCBskUf9vNjfX5_1" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T09:18:43.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="93Tz6EGwuMaH40zeRWJF" version="17.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1919" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -895,27 +895,6 @@
         <mxCell id="U3hqRaiU6nflk0rc1sfB-44" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="910" y="3890" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dqvD-ALYmv8iih--Mmzf-8" target="dqvD-ALYmv8iih--Mmzf-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-8" value="on_initial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-750" y="2590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dqvD-ALYmv8iih--Mmzf-10" target="dqvD-ALYmv8iih--Mmzf-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-10" value="是否到达聚合条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-730" y="2746" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dqvD-ALYmv8iih--Mmzf-12" target="dqvD-ALYmv8iih--Mmzf-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-12" value="调用聚合操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-750" y="2904" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-13" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-735" y="3042" width="90" height="58" as="geometry" />
-        </mxCell>
         <mxCell id="dqvD-ALYmv8iih--Mmzf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dqvD-ALYmv8iih--Mmzf-22" target="dqvD-ALYmv8iih--Mmzf-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -964,7 +943,7 @@
         <mxCell id="dqvD-ALYmv8iih--Mmzf-36" value="PriceCounter&lt;br&gt;----------&lt;br&gt;price_token=&amp;gt;u32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-650" y="3210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dqvD-ALYmv8iih--Mmzf-37" value="AggregatedMission&lt;br&gt;price_token=&amp;gt;u32&lt;br&gt;--------&lt;br&gt;validator,&lt;br&gt;create_bn,&lt;br&gt;is_up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dqvD-ALYmv8iih--Mmzf-37" value="AggregatedMission&lt;br&gt;price_token=&amp;gt;u32&lt;br&gt;--------&lt;br&gt;validator,&lt;br&gt;create_bn,&lt;br&gt;price_key,&lt;br&gt;is_up,&lt;br&gt;price_pool," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-440" y="3210" width="120" height="130" as="geometry" />
         </mxCell>
       </root>
