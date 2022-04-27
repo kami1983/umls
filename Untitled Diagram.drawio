@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:25:42.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1zH2gMKle0s2ierliYmN" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:27:23.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hZXTHWsIgzSJalEDdzMA" version="17.4.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1919" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -901,8 +901,14 @@
         <mxCell id="dqvD-ALYmv8iih--Mmzf-0" value="on_initial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dqvD-ALYmv8iih--Mmzf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dqvD-ALYmv8iih--Mmzf-1" target="dqvD-ALYmv8iih--Mmzf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dqvD-ALYmv8iih--Mmzf-1" value="是否到达聚合条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="2156" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dqvD-ALYmv8iih--Mmzf-3" value="调用聚合操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="2314" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
