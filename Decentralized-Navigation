@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T02:07:59.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9ISPQPt-K_sphlw711ii" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T02:08:55.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="0M7VITbDbwDCIOh6MVhO" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,10 +127,10 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-46" value="选择查询类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="505" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-50" value="提交质押金" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBsCjJTFHLamtqam6JKp-50" value="导航模式查询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-51" value="提交质押金" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBsCjJTFHLamtqam6JKp-51" value="搜索模式查询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="900" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
