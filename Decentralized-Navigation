@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:08:00.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9eHtOHLMppUqfalohRQ-" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:08:15.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="pcZQkXctXUoEmfZoErNm" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,11 +207,10 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-67" value="是否打赏" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="1350" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-69" target="gBsCjJTFHLamtqam6JKp-72">
+        <mxCell id="gBsCjJTFHLamtqam6JKp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-69" target="gBsCjJTFHLamtqam6JKp-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="860" y="1640" />
-              <mxPoint x="1040" y="1640" />
+              <mxPoint x="1040" y="1555" />
             </Array>
           </mxGeometry>
         </mxCell>
