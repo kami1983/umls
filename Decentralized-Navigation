@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:36:33.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gZBr7bfhOKN1P4CXnTKE" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:37:23.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="YhuiX5Ti087rtpN8xNtm" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,12 +217,12 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-69" target="gBsCjJTFHLamtqam6JKp-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1040" y="1560" />
+              <mxPoint x="1040" y="1590" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-69" value="提供打赏的Balance&lt;br&gt;这部分资金一分进入链接提交人的账户一部分进入挑战基金账户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="765" y="1530" width="190" height="60" as="geometry" />
+          <mxGeometry x="765" y="1560" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-72" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="990" y="1750" width="100" height="50" as="geometry" />
@@ -246,7 +246,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-78" value="存入挑战金，以及挑战证据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-84" target="gBsCjJTFHLamtqam6JKp-86">
           <mxGeometry relative="1" as="geometry" />
@@ -341,7 +341,7 @@
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-113" value="拒绝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gBsCjJTFHLamtqam6JKp-111">
           <mxGeometry x="-0.1939" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="67" y="87" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-108" value="审核结果" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
