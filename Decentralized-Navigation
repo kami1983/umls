@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T04:42:03.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="3yp0ThO2z1TXiilDoseS" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T05:04:23.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vEIHHyddO8EZpZmg0lTC" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,13 +10,13 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-0" target="gBsCjJTFHLamtqam6JKp-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="185" y="100" />
-              <mxPoint x="420" y="100" />
+              <mxPoint x="265" y="100" />
+              <mxPoint x="500" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-0" value="Decentralized Public Trust Protocol" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="40" width="230" height="30" as="geometry" />
+          <mxGeometry x="150" y="40" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-1" target="gBsCjJTFHLamtqam6JKp-16">
           <mxGeometry relative="1" as="geometry" />
@@ -36,16 +36,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-9" target="gBsCjJTFHLamtqam6JKp-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="190" />
+              <mxPoint x="105" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-9" target="gBsCjJTFHLamtqam6JKp-24">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="190" />
+              <mxPoint x="375" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-9" value="Information Credit" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="96.25" y="130" width="107.5" height="30" as="geometry" />
+          <mxGeometry x="176.25" y="130" width="107.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-11" value="Contract Association" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="130" width="120" height="30" as="geometry" />
+          <mxGeometry x="440" y="130" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-14" target="gBsCjJTFHLamtqam6JKp-21">
           <mxGeometry relative="1" as="geometry" />
@@ -84,13 +94,13 @@
           <mxGeometry x="180" y="960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-23" value="Contract credit" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="60" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-24" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Media link credit&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="203.75" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="330" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-28" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;去中心化流量入口&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="40" width="180" height="30" as="geometry" />
+          <mxGeometry x="430" y="40" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-31" target="gBsCjJTFHLamtqam6JKp-33">
           <mxGeometry relative="1" as="geometry" />
@@ -294,7 +304,7 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-94" value="扣除质押金到挑战基金" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2000" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-97" target="gBsCjJTFHLamtqam6JKp-104">
+        <mxCell id="gBsCjJTFHLamtqam6JKp-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-97" target="gBsCjJTFHLamtqam6JKp-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-97" value="删除授信标识" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -349,6 +359,12 @@
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-117" value="审查奖励，从审查基金划拨1%分配给参与审查的管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1840" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-128" target="gBsCjJTFHLamtqam6JKp-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-128" value="Slash掉给该数据授信的评审人对应质押金的1%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2240" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
