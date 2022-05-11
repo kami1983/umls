@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T02:18:10.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="CEbMdmWpoSmQn9rsn7X7" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T02:27:59.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vZdaEguUA3QpYNtj_mzW" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,11 +168,47 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-62" value="信息评价" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1000" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-63" target="gBsCjJTFHLamtqam6JKp-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-63" value="有用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-64" value="无用或有误" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1090" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-67" target="gBsCjJTFHLamtqam6JKp-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gBsCjJTFHLamtqam6JKp-70">
+          <mxGeometry x="-0.2375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-67" target="gBsCjJTFHLamtqam6JKp-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1390" />
+              <mxPoint x="800" y="1665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-75" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gBsCjJTFHLamtqam6JKp-74">
+          <mxGeometry x="-0.1118" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-67" value="是否打赏" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="1350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-69" target="gBsCjJTFHLamtqam6JKp-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-69" value="提供打赏的Balance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-72" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="890" y="1640" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
