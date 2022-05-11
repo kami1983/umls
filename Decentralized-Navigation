@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T01:19:10.983Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="X7NTczoTLsG2p4OLbPN1" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T02:00:42.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="sIqX18taQZzsyGIYj0fX" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1094" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-0" target="gBsCjJTFHLamtqam6JKp-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="100" />
+              <mxPoint x="420" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-0" value="Decentralized Navigation" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="40" width="160" height="30" as="geometry" />
+        <mxCell id="gBsCjJTFHLamtqam6JKp-0" value="Decentralized Public Trust Protocol" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="40" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-1" target="gBsCjJTFHLamtqam6JKp-16">
           <mxGeometry relative="1" as="geometry" />
@@ -19,22 +24,31 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-1" value="信息提交流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-2" value="查询一个合约地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="330" width="120" height="60" as="geometry" />
+        <mxCell id="gBsCjJTFHLamtqam6JKp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-2" target="gBsCjJTFHLamtqam6JKp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-2" value="DAO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-20" target="gBsCjJTFHLamtqam6JKp-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-9" target="gBsCjJTFHLamtqam6JKp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-9" target="gBsCjJTFHLamtqam6JKp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-9" value="Information Credit" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="96.25" y="130" width="107.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-11" value="Contract Association" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="130" width="120" height="30" as="geometry" />
+          <mxGeometry x="360" y="130" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-14" value="提交合约的类型&lt;br&gt;合约/Telegram群/Discord地址" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="810" width="120" height="60" as="geometry" />
+        <mxCell id="gBsCjJTFHLamtqam6JKp-14" value="提交地址类型&lt;br&gt;合约/Telegram群/Discord地址/&lt;br&gt;Twitter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="810" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-16" target="gBsCjJTFHLamtqam6JKp-20">
           <mxGeometry relative="1" as="geometry">
@@ -50,7 +64,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="540" />
-              <mxPoint x="400" y="840" />
+              <mxPoint x="400" y="845" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -61,7 +75,33 @@
           <mxGeometry x="180" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-21" value="提交合约的类型&lt;br&gt;合约/Telegram群/Discord地址" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-23" value="Contract credit" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-24" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Media link credit&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-28" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;最终要形成一个流量入口社区，才会形成最大价值&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="280" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-31" target="gBsCjJTFHLamtqam6JKp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-31" value="资金质押" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-33" target="gBsCjJTFHLamtqam6JKp-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-33" value="选举" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBsCjJTFHLamtqam6JKp-37" value="参与评审" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="815" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
