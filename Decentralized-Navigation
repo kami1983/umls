@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T02:48:51.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_fgrMQ4aZInOan0kha6J" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T04:03:36.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="RMMAr_z_upmzUtuJSjo8" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Contract-Credit">
     <mxGraphModel dx="1781" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,17 +373,13 @@
         <mxCell id="gBsCjJTFHLamtqam6JKp-117" value="审查奖励，从审查基金划拨1%分配给参与审查的管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1840" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-128" target="gBsCjJTFHLamtqam6JKp-104">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gBsCjJTFHLamtqam6JKp-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-131" target="gBsCjJTFHLamtqam6JKp-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="1440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-128" value="Slash掉给该数据授信的评审人对应质押金的1%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2240" y="1440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-131" target="gBsCjJTFHLamtqam6JKp-128">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gBsCjJTFHLamtqam6JKp-131" value="扣除信息的1%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2240" y="1340" width="120" height="60" as="geometry" />
+        <mxCell id="gBsCjJTFHLamtqam6JKp-131" value="将该授信信息质押金的50%奖励给挑战人另外50%进入挑战基金池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2240" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gBsCjJTFHLamtqam6JKp-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBsCjJTFHLamtqam6JKp-134" target="gBsCjJTFHLamtqam6JKp-143">
           <mxGeometry relative="1" as="geometry" />
