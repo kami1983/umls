@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T08:24:57.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="yW6MKIWFNFBGIMQUj6BJ" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-17T08:25:13.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vS21tfGdgHzbm27SINVx" version="17.4.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Free Trade-price">
     <mxGraphModel dx="717" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,8 +383,18 @@
         <mxCell id="7Oie7XSmJZkIud9JaCrt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Oie7XSmJZkIud9JaCrt-38" target="7Oie7XSmJZkIud9JaCrt-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7Oie7XSmJZkIud9JaCrt-53" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Oie7XSmJZkIud9JaCrt-48">
+          <mxGeometry x="-0.1375" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7Oie7XSmJZkIud9JaCrt-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Oie7XSmJZkIud9JaCrt-38" target="7Oie7XSmJZkIud9JaCrt-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Oie7XSmJZkIud9JaCrt-52" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Oie7XSmJZkIud9JaCrt-50">
+          <mxGeometry x="-0.1222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7Oie7XSmJZkIud9JaCrt-38" value="Response node exceeds threshold" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="980" width="80" height="80" as="geometry" />
