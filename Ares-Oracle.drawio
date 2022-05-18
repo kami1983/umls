@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T03:02:20.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="X_rLFzMzxbKC1P8wNm9N" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-18T03:05:10.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="7a_kpNZyH4-qk-sdO96j" version="17.4.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Free Trade-price">
     <mxGraphModel dx="523" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,7 +446,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Fg69hn1eM_925D_xlfqR" name="选举干预流程">
-    <mxGraphModel dx="1810" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1532" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -618,6 +618,9 @@
             <mxPoint x="1000" y="999.33" as="sourcePoint" />
             <mxPoint x="1115" y="999.6600000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nbac7AnXVTN25lqPDIWk-99" value="&lt;span style=&quot;text-align: left&quot;&gt;Use the IForPrice Trait to record workload and store funds.&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=13;position2=0.22;size=30;position=0.2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="670" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
