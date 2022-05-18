@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T02:13:24.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="FX_QXlCK5Mre6s7uaGtT" version="17.4.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-18T02:14:39.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="hXp-0HO2x2xEnOSqNGF4" version="17.4.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Free Trade-price">
     <mxGraphModel dx="523" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,8 +467,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nbac7AnXVTN25lqPDIWk-4" value="&lt;h4 style=&quot;box-sizing: border-box ; position: relative ; margin-top: 1em ; margin-bottom: 16px ; line-height: 1.4 ; font-size: 14px ; font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;freesans&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;ares-oracle&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="745" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="nbac7AnXVTN25lqPDIWk-4" value="&lt;h4 style=&quot;box-sizing: border-box ; position: relative ; margin-top: 1em ; margin-bottom: 16px ; line-height: 1.4 ; font-size: 14px ; font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;freesans&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;pallet::ares-oracle&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="770" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nbac7AnXVTN25lqPDIWk-5" value="&lt;h4 style=&quot;box-sizing: border-box ; position: relative ; margin-top: 1em ; margin-bottom: 16px ; line-height: 1.4 ; font-size: 14px ; font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;freesans&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;oracle-finance&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="370" width="120" height="60" as="geometry" />
@@ -504,8 +504,8 @@
         <mxCell id="nbac7AnXVTN25lqPDIWk-22" value="Influence candidate targets with IAresOraclePreCheck Trait" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="490" y="430" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="nbac7AnXVTN25lqPDIWk-27" value="&lt;span style=&quot;text-align: left&quot;&gt;Implement the high-level abstract structure defined by oracle, such as IAresOraclePreCheck Trait&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=0;size=0;position=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="630" width="160" height="80" as="geometry" />
+        <mxCell id="nbac7AnXVTN25lqPDIWk-27" value="&lt;span style=&quot;text-align: left&quot;&gt;Implement the high-level abstract structure defined by oracle, such as IAresOraclePreCheck Trait&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=30;position2=0.94;size=30;position=0.56;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
