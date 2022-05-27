@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T09:34:39.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="LSXGFwxY5UiHuN5FliCM" version="18.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T09:56:40.153Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="-V0tF1Qt4D4B5i6PzYOw" version="18.0.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1260" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -50,14 +50,29 @@
         <mxCell id="PcDRFlbLYwwbEdOv3bbI-2" value="CRPFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PcDRFlbLYwwbEdOv3bbI-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;newBPool()&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-7" target="PcDRFlbLYwwbEdOv3bbI-15">
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;newBPool()&amp;nbsp;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-7" target="PcDRFlbLYwwbEdOv3bbI-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-7" target="PcDRFlbLYwwbEdOv3bbI-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="765" />
+              <mxPoint x="30" y="1150" />
+              <mxPoint x="110" y="1150" />
+              <mxPoint x="110" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-21" value="bind() 信息包括token,资金,权重&amp;nbsp;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;setSwapFee() 费用&lt;br&gt;setPublicSwap(true)&lt;br&gt;设置ERC20.safeApprove()给IBPool实例&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PcDRFlbLYwwbEdOv3bbI-20">
+          <mxGeometry x="-0.0351" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PcDRFlbLYwwbEdOv3bbI-7" value="生成 ConfigurableRightsPool 初始资金转入这里" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" y="740" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PcDRFlbLYwwbEdOv3bbI-10" value="CRPFactory负责保存Crp信息，比如Crp是否存在，并且将调用者设置为crp的控制账号" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="370" width="170" height="120" as="geometry" />
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-10" value="CRFactory负责保存Crp信息，比如Crp是否存在，并且将调用者设置为crp的控制账号&lt;br&gt;(_isCrp[address])" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="340" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PcDRFlbLYwwbEdOv3bbI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-11" target="PcDRFlbLYwwbEdOv3bbI-7">
           <mxGeometry relative="1" as="geometry" />
@@ -65,17 +80,38 @@
         <mxCell id="PcDRFlbLYwwbEdOv3bbI-11" value="ConfigurableRightsPool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="135" y="600" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PcDRFlbLYwwbEdOv3bbI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-15" target="PcDRFlbLYwwbEdOv3bbI-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-15" target="PcDRFlbLYwwbEdOv3bbI-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PcDRFlbLYwwbEdOv3bbI-15" value="IBFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=160;entryDy=35;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-15" target="PcDRFlbLYwwbEdOv3bbI-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="940" />
+              <mxPoint x="450" y="1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-33" value="setController(msg.sender)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PcDRFlbLYwwbEdOv3bbI-32">
+          <mxGeometry x="-0.1611" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-15" value="IBFactory 创建BPool 并记录BPool的信息比如控制账号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PcDRFlbLYwwbEdOv3bbI-17" value="CRP实力会设置初始供应量，并将资金转入这个合约。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="650" width="170" height="120" as="geometry" />
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PcDRFlbLYwwbEdOv3bbI-18" target="PcDRFlbLYwwbEdOv3bbI-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PcDRFlbLYwwbEdOv3bbI-18" value="生成 IBPool" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="1030" width="160" height="50" as="geometry" />
+          <mxGeometry x="130" y="1130" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-29" value="BFactory负责保存BPool信息，比如BPool是否存在，以及对应的控制账号&lt;br&gt;(_isCrp[address])" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="780" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PcDRFlbLYwwbEdOv3bbI-34" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="1240" width="80" height="53.33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
