@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:13:14.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Z-ed0MEBBW6fstS_-UcM" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:19:48.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GUHbb2ez5Dj7cLe3yBxx" version="18.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3128" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,8 +1005,28 @@
         <mxCell id="dqvD-ALYmv8iih--Mmzf-49" value="删除旧任务并处理错误" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-500" y="3041" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UPaUWx2FbcDJdv-U7Dyv-0" target="UPaUWx2FbcDJdv-U7Dyv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-6" value="transfer(50)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UPaUWx2FbcDJdv-U7Dyv-5">
+          <mxGeometry x="-0.08" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UPaUWx2FbcDJdv-U7Dyv-0" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;near-link-token&lt;/pre&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1350" y="1149" width="160" height="80" as="geometry" />
+          <mxGeometry x="-1450" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;oracle&lt;/pre&gt;&lt;/pre&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1110" y="796" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;client&lt;/pre&gt;&lt;/pre&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1140" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-3" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;pre style=&quot;box-sizing: border-box; margin-top: 16px; margin-bottom: 16px; font: 400 0.85em / 1.45 &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; padding: 16px; overflow: auto; border-radius: 3px; color: rgb(0, 0, 0); background-color: rgba(212, 222, 231, 0.247); letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11.9px; line-height: inherit; font-family: &amp;quot;JetBrains Mono&amp;quot;, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, Courier, monospace; padding: 0px; margin: 0px; border-radius: 3px; color: rgb(0, 0, 0); background: transparent; word-break: normal; border: 0px; display: inline; max-width: initial; overflow: initial; overflow-wrap: normal;&quot; class=&quot;language-bash&quot;&gt;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;near create-account oracle.&lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt; --masterAccount &lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt;&lt;/span&gt;&#xa;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;near create-account client.&lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt; --masterAccount &lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt;&lt;/span&gt;&#xa;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;near create-account oracle-node.&lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt; --masterAccount &lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt;&lt;/span&gt;&#xa;&lt;span style=&quot;box-sizing: border-box;&quot;&gt;near create-account near-link.&lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt; --masterAccount &lt;span style=&quot;box-sizing: border-box; color: rgb(0, 0, 0);&quot;&gt;$NEAR_ACCT&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-910" y="990" width="550" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UPaUWx2FbcDJdv-U7Dyv-4" value="oracle-node.$NEAR_ACCT" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-650" y="780" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
