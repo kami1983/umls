@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T02:54:14.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7L43U9599aktjNxJGhyl" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T02:55:04.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="po5ca1Qg__IFPI_WuXON" version="19.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2227" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-23" value="记录到链上存储中，并且发送Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gvr0-aAgRpoHnD6zwqF0-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-28" target="gvr0-aAgRpoHnD6zwqF0-30">
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-28" target="gvr0-aAgRpoHnD6zwqF0-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-28" value="设置核销名单&lt;br&gt;[(Account,Balance)]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -112,8 +112,8 @@
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-30" target="gvr0-aAgRpoHnD6zwqF0-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-130" y="600" />
-              <mxPoint x="-130" y="900" />
+              <mxPoint x="-130" y="770" />
+              <mxPoint x="-130" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -123,16 +123,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-30" value="验证核销的名单账号和对应Balance是否匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="30" y="730" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-32" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="870" width="100" height="60" as="geometry" />
+          <mxGeometry x="20" y="1040" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-35" target="gvr0-aAgRpoHnD6zwqF0-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-35" value="删除已经核销的转账名单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-41" target="gvr0-aAgRpoHnD6zwqF0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-43" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gvr0-aAgRpoHnD6zwqF0-42">
+          <mxGeometry x="-0.1375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-41" value="验证签名账号是Service指定的服务账号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="570" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
