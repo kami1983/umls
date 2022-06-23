@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T03:11:26.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nabXtG2Z9ZOn61oS5BlX" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-23T03:20:49.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jX-mjkSNV-x-AIewyQdQ" version="19.0.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="流程图">
     <mxGraphModel dx="2227" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,11 +172,32 @@
         <mxCell id="uiwpOnFmyDNNKPIyaqL3-3" value="update_waiter(acc: T::Account)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="uiwpOnFmyDNNKPIyaqL3-4" value="set_complete_list(list: [T::Account])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
+        <mxCell id="uiwpOnFmyDNNKPIyaqL3-4" value="set_up_completed_list(list: [(T::Account, type, amount)])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="uiwpOnFmyDNNKPIyaqL3-5" value="transfer_to_eth: (eth: T::EthAddress, amount: T::Balance)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-1" value="ManualBridge::Storage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="550" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-2" value="waiter_acc: T::Account" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zDeW8TWNu8TDxLd4HGFv-1">
+          <mxGeometry y="26" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-3" value="pending_list: [{acc: T::Account, type: E::ETH_ADDR, amount: T::Balance, bn: BlockNumber}]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zDeW8TWNu8TDxLd4HGFv-1">
+          <mxGeometry y="52" width="550" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-5" value="ManualBridge::Events" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="620" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-6" value="Event::WaiterUpdated(acc: T::Account)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zDeW8TWNu8TDxLd4HGFv-5">
+          <mxGeometry y="26" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-7" value="Event::WaitingToBeCrossChain({acc: T::Account, type: E::ETH_ADDR, amount: T::Balance, bn: BlockNumber})" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zDeW8TWNu8TDxLd4HGFv-5">
+          <mxGeometry y="52" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zDeW8TWNu8TDxLd4HGFv-8" value="Event::CompletedList(list: [(T::Account, type, amount)])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zDeW8TWNu8TDxLd4HGFv-5">
+          <mxGeometry y="78" width="620" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
