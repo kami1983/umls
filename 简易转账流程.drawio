@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T02:56:58.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="GyR7d5YMEu2il7Kf4Iz3" version="19.0.2" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-06-23T03:03:13.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="CscJAv6_NUgb8zZ7JAhk" version="19.0.2" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="流程图">
     <mxGraphModel dx="2227" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -34,7 +34,7 @@
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-10" target="gvr0-aAgRpoHnD6zwqF0-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gvr0-aAgRpoHnD6zwqF0-10" value="设置Service服务账号&lt;br&gt;Account用来收款和处理核销操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-10" value="设置Waiter服务账号&lt;br&gt;Account用来收款和处理核销操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gvr0-aAgRpoHnD6zwqF0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gvr0-aAgRpoHnD6zwqF0-12" target="gvr0-aAgRpoHnD6zwqF0-23">
@@ -155,8 +155,28 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gvr0-aAgRpoHnD6zwqF0-41" value="验证签名账号是Service指定的服务账号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gvr0-aAgRpoHnD6zwqF0-41" value="验证签名账号是Waiter指定的服务账号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RsjGKTbF6geYJFCPgYjc" name="外部签名方法">
+    <mxGraphModel dx="1400" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uiwpOnFmyDNNKPIyaqL3-2" value="ManualBridge" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uiwpOnFmyDNNKPIyaqL3-3" value="UdateWaiter(acc: T::Account)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uiwpOnFmyDNNKPIyaqL3-4" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uiwpOnFmyDNNKPIyaqL3-5" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uiwpOnFmyDNNKPIyaqL3-2">
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
