@@ -1,11 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T07:56:09.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yl1czX5OfgheNmCbL9l7" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T08:05:12.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5_nxrCyuIXGO9okWTRYP" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="1LQJy3dX-HsZBZiR6DC--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="1LQJy3dX-HsZBZiR6DC--13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="链上功能" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="330" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="1200" y="180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--0" target="1LQJy3dX-HsZBZiR6DC--2">
           <mxGeometry relative="1" as="geometry" />
@@ -17,19 +27,38 @@
           <mxGeometry x="730" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、设置提示的Symbol。&lt;br&gt;2、设置提示的预警价格。&lt;br&gt;3、提示费用充值。&lt;br&gt;4、已设置的提示列表展示。&lt;br&gt;5、取消某Symbol的价格提示。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="400" width="220" height="100" as="geometry" />
+          <mxGeometry x="810" y="385" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--2" value="通知程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="300" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--3" target="1LQJy3dX-HsZBZiR6DC--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--3" value="交互UI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1LQJy3dX-HsZBZiR6DC--7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="400" width="160" height="70" as="geometry" />
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、主动扫块模式或者被动触发模式。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="385" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--10" value="服务设定模块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="1060" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--13" target="1LQJy3dX-HsZBZiR6DC--2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="320" />
+              <mxPoint x="1470" y="110" />
+              <mxPoint x="620" y="110" />
+              <mxPoint x="620" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--13" value="Offchain 调用服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LQJy3dX-HsZBZiR6DC--15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、调用设定好的Callback地址。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="395" width="220" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
