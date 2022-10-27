@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T07:30:18.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sKQ7L_bTUDGvln_zgglB" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-27T07:34:57.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="a7D7S9QW_vdkY07cHWQW" version="20.5.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="功能流程">
-    <mxGraphModel dx="1073" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -461,6 +461,20 @@
         </mxCell>
         <mxCell id="zzRAuKKFE3fvANu1nc3E-23" value="标记为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ruizb-W5ecjlZv55et3p" name="解决洪水攻击">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3FfEHOQe4AjtCCcGNx7J-1" value="假设恶意发送大量无效请求，占用offchain资源，如何处理？&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="55" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3FfEHOQe4AjtCCcGNx7J-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、在于通知收费的模式，可以通过扫描次数进行收费，而不是通知了才进行收费，也就是说每个通知监听都会不断的消耗费用直到费用耗尽后，被释放，这样建立大量的mission需要的成本是不断增高的，就可以防止此类攻击。&lt;br&gt;&lt;br&gt;2、如果一定要发送消息后才进行收费，那么问题有些难解决，&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="460" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
