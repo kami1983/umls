@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T06:08:21.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rAdEA6ax2ot9Kj1d7-eA" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T06:11:43.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="njK9nD6uSGaUrn5-Q10r" version="20.5.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="功能流程">
     <mxGraphModel dx="1073" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="330" y="180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、设置提示的Symbol。&lt;br&gt;&lt;br&gt;2、设置提示的预警价格。&lt;br&gt;&lt;br&gt;3、提示费用充值。&lt;br&gt;&lt;br&gt;4、已设置的提示列表展示。&lt;br&gt;&lt;br&gt;5、取消某Symbol的价格提示。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="430" y="385" width="220" height="155" as="geometry" />
+          <mxGeometry x="414" y="430" width="186" height="155" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--2" value="通知程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="300" width="120" height="40" as="geometry" />
@@ -49,7 +49,7 @@
           <mxGeometry x="440" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、最简单的模式及时 call 完成就代表整个通知事件的完成。缺点是无法确定通知是否完成&lt;br&gt;&lt;br&gt;2、稍复杂的是通知后通知程序需要有一个回执，从而表示整个流程进入闭环状态。但是这样有一个问题就是如何验证提交有效性的问题。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="485" width="170" height="70" as="geometry" />
+          <mxGeometry x="100" y="427.5" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--10" value="服务设定模块" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="680" y="300" width="120" height="40" as="geometry" />
@@ -87,8 +87,11 @@
             <mxPoint x="310" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;br&gt;4、已设置的提示列表展示。&lt;br&gt;&lt;br&gt;5、取消某Symbol的价格提示。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="385" width="220" height="215" as="geometry" />
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;br&gt;4、服务功能设置，首先需要有一个&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="385" width="220" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="410" width="220" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
