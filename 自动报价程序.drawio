@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T06:04:57.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HjqqeUSEGuiaLWvf7Dig" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-28T06:20:54.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zuJ1uknOHwtCOKkLWYZB" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="功能流程">
     <mxGraphModel dx="1073" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="330" y="180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、设置提示的Symbol。&lt;br&gt;&lt;br&gt;2、设置提示的预警价格。&lt;br&gt;&lt;br&gt;3、提示费用充值。&lt;br&gt;&lt;br&gt;4、已设置的提示列表展示。&lt;br&gt;&lt;br&gt;5、取消某Symbol的价格提示。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="405" width="186" height="155" as="geometry" />
+          <mxGeometry x="297" y="530" width="186" height="155" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--2" value="通知程序" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="300" width="120" height="40" as="geometry" />
@@ -40,9 +40,22 @@
         <mxCell id="1LQJy3dX-HsZBZiR6DC--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--3" target="1LQJy3dX-HsZBZiR6DC--10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-klPBfLYcVCoZlLpAP0-0" value="call tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1LQJy3dX-HsZBZiR6DC--12" vertex="1" connectable="0">
+        <mxCell id="e-klPBfLYcVCoZlLpAP0-0" value="Call tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1LQJy3dX-HsZBZiR6DC--12" vertex="1" connectable="0">
           <mxGeometry x="0.15" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txcAlB8pkOLFdTedWThu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--3" target="txcAlB8pkOLFdTedWThu-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="750" />
+              <mxPoint x="1040" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txcAlB8pkOLFdTedWThu-3" value="Call Tx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="txcAlB8pkOLFdTedWThu-2">
+          <mxGeometry x="0.1681" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--3" value="交互UI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -68,6 +81,9 @@
           <mxGeometry x="0.3535" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="txcAlB8pkOLFdTedWThu-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--13" target="txcAlB8pkOLFdTedWThu-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1LQJy3dX-HsZBZiR6DC--13" value="Offchain 调用服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="980" y="300" width="120" height="40" as="geometry" />
@@ -110,6 +126,9 @@
             <mxPoint x="770" y="420" as="sourcePoint" />
             <mxPoint x="750" y="350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="txcAlB8pkOLFdTedWThu-0" value="记录发送的奖励&lt;br&gt;或许可以重构Finance模块实现" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="442.5" width="120" height="67.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
