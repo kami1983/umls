@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T01:06:05.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hclfBBLr9UJshCXlZ98C" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-28T01:08:05.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9cnm_7mr-PEwjQe0KQs5" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="功能流程">
     <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,6 +475,9 @@
         </mxCell>
         <mxCell id="3FfEHOQe4AjtCCcGNx7J-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、在于通知收费的模式，可以通过扫描次数进行收费，而不是通知了才进行收费，也就是说每个通知监听都会不断的消耗费用直到费用耗尽后，被释放，这样建立大量的mission需要的成本是不断增高的，就可以防止此类攻击。&lt;br&gt;&lt;br&gt;2、如果一定要发送消息后才进行收费，为了避免用户可以提交一个不可能的价格进行网络拥堵，也可以先进性预占用费用的模式，也就是创建的越多所占用的费用也就越多，这样某个用户提交的链接数量就是有限的，取决于ares的数量多少，但是这个有个弊端就是攻击者可以通过估算来牺牲部分ares从而拥堵队列。&lt;br&gt;&lt;br&gt;3、上线估算，假设一个验证节点一个区块可以处理100个请求（上线阈值），那么10个验证节点理论一个区块可以处理 1000 个请求，这个就是上限值，那么攻击者如果要堵塞通知系统，那么只需要占用1000个请求就可以让通知系统减速（因为大量的请求不断地在上面消耗检查，所以通知收费还是有弊端的，扫描收费模式更好。）&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="120" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Qwcq1hxT6RpdyjiHNiMS-1" value="1000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="50" height="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
