@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T09:55:05.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JoOyCCE5i8IWVNdo3zeZ" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-28T01:06:05.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hclfBBLr9UJshCXlZ98C" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="功能流程">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -64,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ThxVFjcqhPMT6P87fLsL-0" value="call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1LQJy3dX-HsZBZiR6DC--17">
+        <mxCell id="ThxVFjcqhPMT6P87fLsL-0" value="call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1LQJy3dX-HsZBZiR6DC--17" vertex="1" connectable="0">
           <mxGeometry x="0.3535" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -81,31 +81,31 @@
             <mxPoint x="910" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ThxVFjcqhPMT6P87fLsL-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--7" target="1LQJy3dX-HsZBZiR6DC--2">
+        <mxCell id="ThxVFjcqhPMT6P87fLsL-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--7" target="1LQJy3dX-HsZBZiR6DC--2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="460" as="sourcePoint" />
             <mxPoint x="310" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;br&gt;4、服务功能设置，首先需要有一个基础服务的类型以及对应价格设定的功能，不如class1,type1=10ARES,class2,type1=5ARES等，这部分是管理员功能用于配置通知成本的。(class用于表示预警的类型，kind表示通知的类型)&lt;br&gt;&lt;br&gt;5、上限下限【价格】&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-0" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;br&gt;4、服务功能设置，首先需要有一个基础服务的类型以及对应价格设定的功能，不如class1,type1=10ARES,class2,type1=5ARES等，这部分是管理员功能用于配置通知成本的。(class用于表示预警的类型，kind表示通知的类型)&lt;br&gt;&lt;br&gt;5、上限下限【价格】&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="650" y="410" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、添加一个Symbol的检测（价格预警，波动预警）包括提示次数，提示间隔等。&lt;br&gt;&lt;br&gt;2、预支付用于提醒服务的费用（这部分可能是保留费用）&lt;br&gt;&lt;br&gt;3、取消或暂停某个已添加的预警服务，所以这些服务需要有一个status。&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="970" y="425" width="220" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--1" target="1LQJy3dX-HsZBZiR6DC--3">
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1LQJy3dX-HsZBZiR6DC--1" target="1LQJy3dX-HsZBZiR6DC--3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="195" y="437.5" as="sourcePoint" />
             <mxPoint x="290" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uzDhdyEQsiaP1lvy8jcc-0" target="1LQJy3dX-HsZBZiR6DC--10">
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uzDhdyEQsiaP1lvy8jcc-0" target="1LQJy3dX-HsZBZiR6DC--10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="493" y="415" as="sourcePoint" />
             <mxPoint x="510" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uzDhdyEQsiaP1lvy8jcc-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uzDhdyEQsiaP1lvy8jcc-1" target="1LQJy3dX-HsZBZiR6DC--13">
+        <mxCell id="uzDhdyEQsiaP1lvy8jcc-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uzDhdyEQsiaP1lvy8jcc-1" target="1LQJy3dX-HsZBZiR6DC--13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="420" as="sourcePoint" />
             <mxPoint x="750" y="350" as="targetPoint" />
@@ -115,7 +115,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-mODm4do_svNWM4j6q6F" name="Offchian扫描算法">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,28 +149,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-9" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="402.5" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="395.5" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-10" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="438.75" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="431.75" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-11" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="471.25" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="468.25" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-12" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="503.75" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="502.75" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-13" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="536.25" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="538.25" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-14" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="568.75" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="572.75" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-15" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="606.25" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="608.25" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-16" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="303.75" y="638.75" width="32.5" height="32.5" as="geometry" />
+          <mxGeometry x="303.75" y="643.75" width="32.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Dikudca8PNc4jADNO9I8-17" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="303.75" y="680" width="32.5" height="32.5" as="geometry" />
@@ -390,111 +390,111 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7JKWkt06HZJb3DZYUg_H" name="通知验证流程">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-20" target="zzRAuKKFE3fvANu1nc3E-3">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zzRAuKKFE3fvANu1nc3E-20" target="zzRAuKKFE3fvANu1nc3E-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="270" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-2" target="zzRAuKKFE3fvANu1nc3E-23">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-2" target="zzRAuKKFE3fvANu1nc3E-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-2" value="发送通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-2" value="发送通知" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-3" target="zzRAuKKFE3fvANu1nc3E-6">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-3" target="zzRAuKKFE3fvANu1nc3E-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-3" value="对（区块号+mid+class+type）进行签名" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-3" value="对（区块号+mid+class+type）进行签名" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="352.5" y="350" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-6" target="zzRAuKKFE3fvANu1nc3E-8">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-6" target="zzRAuKKFE3fvANu1nc3E-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-6" value="提交请求，区块号，签名信息，公钥，class，type，mid 到通知系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-6" value="提交请求，区块号，签名信息，公钥，class，type，mid 到通知系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="490" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-12" value="合法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-8" target="zzRAuKKFE3fvANu1nc3E-11">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-12" value="合法" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-8" target="zzRAuKKFE3fvANu1nc3E-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-8" target="zzRAuKKFE3fvANu1nc3E-15">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-8" target="zzRAuKKFE3fvANu1nc3E-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-19" value="非法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zzRAuKKFE3fvANu1nc3E-18">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-19" value="非法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zzRAuKKFE3fvANu1nc3E-18" vertex="1" connectable="0">
           <mxGeometry x="-0.2242" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-8" value="签名数据是否合法" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-8" value="签名数据是否合法" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-11" target="zzRAuKKFE3fvANu1nc3E-2">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-11" target="zzRAuKKFE3fvANu1nc3E-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-14" value="未发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zzRAuKKFE3fvANu1nc3E-13">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-14" value="未发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zzRAuKKFE3fvANu1nc3E-13" vertex="1" connectable="0">
           <mxGeometry x="-0.025" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-11" target="zzRAuKKFE3fvANu1nc3E-15">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-11" target="zzRAuKKFE3fvANu1nc3E-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-17" value="发送过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zzRAuKKFE3fvANu1nc3E-16">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-17" value="发送过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zzRAuKKFE3fvANu1nc3E-16" vertex="1" connectable="0">
           <mxGeometry x="-0.5091" y="1" relative="1" as="geometry">
             <mxPoint x="31" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-11" value="是否已经发送" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-11" value="是否已经发送" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="780" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-15" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="785" width="92" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-20" value="Offchain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-20" value="Offchain" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="zzRAuKKFE3fvANu1nc3E-23" target="zzRAuKKFE3fvANu1nc3E-15">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" parent="1" source="zzRAuKKFE3fvANu1nc3E-23" target="zzRAuKKFE3fvANu1nc3E-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zzRAuKKFE3fvANu1nc3E-23" value="标记为已发送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zzRAuKKFE3fvANu1nc3E-23" value="标记为已发送" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Ruizb-W5ecjlZv55et3p" name="解决洪水攻击">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3FfEHOQe4AjtCCcGNx7J-1" value="假设恶意发送大量无效请求，占用offchain资源，如何处理？（推导）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="3FfEHOQe4AjtCCcGNx7J-1" value="假设恶意发送大量无效请求，占用offchain资源，如何处理？（推导）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="15" y="60" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3FfEHOQe4AjtCCcGNx7J-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、在于通知收费的模式，可以通过扫描次数进行收费，而不是通知了才进行收费，也就是说每个通知监听都会不断的消耗费用直到费用耗尽后，被释放，这样建立大量的mission需要的成本是不断增高的，就可以防止此类攻击。&lt;br&gt;&lt;br&gt;2、如果一定要发送消息后才进行收费，为了避免用户可以提交一个不可能的价格进行网络拥堵，也可以先进性预占用费用的模式，也就是创建的越多所占用的费用也就越多，这样某个用户提交的链接数量就是有限的，取决于ares的数量多少，但是这个有个弊端就是攻击者可以通过估算来牺牲部分ares从而拥堵队列。&lt;br&gt;&lt;br&gt;3、上线估算，假设一个验证节点一个区块可以处理100个请求（上线阈值），那么10个验证节点理论一个区块可以处理 1000 个请求，这个就是上限值，那么攻击者如果要堵塞通知系统，那么只需要占用1000个请求就可以让通知系统减速（因为大量的请求不断地在上面消耗检查，所以通知收费还是有弊端的，扫描收费模式更好。）&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3FfEHOQe4AjtCCcGNx7J-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1、在于通知收费的模式，可以通过扫描次数进行收费，而不是通知了才进行收费，也就是说每个通知监听都会不断的消耗费用直到费用耗尽后，被释放，这样建立大量的mission需要的成本是不断增高的，就可以防止此类攻击。&lt;br&gt;&lt;br&gt;2、如果一定要发送消息后才进行收费，为了避免用户可以提交一个不可能的价格进行网络拥堵，也可以先进性预占用费用的模式，也就是创建的越多所占用的费用也就越多，这样某个用户提交的链接数量就是有限的，取决于ares的数量多少，但是这个有个弊端就是攻击者可以通过估算来牺牲部分ares从而拥堵队列。&lt;br&gt;&lt;br&gt;3、上线估算，假设一个验证节点一个区块可以处理100个请求（上线阈值），那么10个验证节点理论一个区块可以处理 1000 个请求，这个就是上限值，那么攻击者如果要堵塞通知系统，那么只需要占用1000个请求就可以让通知系统减速（因为大量的请求不断地在上面消耗检查，所以通知收费还是有弊端的，扫描收费模式更好。）&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="120" width="460" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="yGtO3BD32FjClkU5O5lE" name="报价延迟的问题">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5isbtQ3ecFQjPFLM2BD0-1" value="基于现有规则报价延迟实际上还是比较大的，这个问题是否是中心化通知提示攻击的弊端，&lt;br&gt;如何解决或者说如何定位该产品。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5isbtQ3ecFQjPFLM2BD0-1" value="基于现有规则报价延迟实际上还是比较大的，这个问题是否是中心化通知提示攻击的弊端，&lt;br&gt;如何解决或者说如何定位该产品。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="60" width="500" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IBUhf1xJ4t06ctrZ8AEK-1" value="信息隐私" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="60" y="185" width="70" height="30" as="geometry" />
+        <mxCell id="IBUhf1xJ4t06ctrZ8AEK-1" value="信息隐私" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="150" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="YguD8KEETJrE91Af-v85" name="信息安全问题">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
